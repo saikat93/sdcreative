@@ -1,0 +1,422 @@
+    body {
+        font-family: 'SF Pro Display', 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    #poweredBy {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color: #0078D7;
+        color: white;
+        padding: 10px;
+        z-index: 1000;
+        border-top-left-radius: 10px;
+        font-family: Roboto, sans-serif;
+    }
+
+    .info-icon {
+        margin-right: 5px;
+        font-size: 1.2em;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    header {
+        position: relative; 
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 60px 0;
+        background-image: url(https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: cover;
+        background-position: center;
+    }
+    .community-description {
+        position: absolute;
+        bottom: -40%;
+        left: 10%;
+        right: 10%;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        border-radius: 8px;
+        color: #fff;
+        text-align: center;
+        z-index: 10;
+    }
+    #saikatDP {
+        width: 150px; /* You can adjust this value as per your requirement */
+        height: 150px; /* Make sure height and width are the same for a perfect circle */
+        border-radius: 50%; /* This makes the image appear as a circle */
+        object-fit: cover; /* This ensures that the image covers the entire space without distortion */
+        display: block; /* To center the image */
+        margin: 0 auto; /* To center the image */
+    }
+    
+    
+    .community-description:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    main {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 20px;
+    }
+
+    .whatsapp-groups .group {
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-size: cover;
+        background-position: center;
+        padding: 39px;
+        border-radius: 10px;
+        transition: transform .3s;
+    }
+
+   
+
+    .group.law {
+        background-image: url(https://images.pexels.com/photos/167703/pexels-photo-167703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+
+    .group.jobs {
+        background-image: url(https://images.pexels.com/photos/3183157/pexels-photo-3183157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+
+    .group.wellbeing {
+        background-image: url(https://images.pexels.com/photos/3768147/pexels-photo-3768147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    .group.cyber-security {
+        background-image: url(https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    .group.Finance {
+        background-image: url(https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+    
+    
+
+    .whatsapp-link {
+        display: inline-block;
+        background-color: #25d366;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 30px;
+        transition: transform .3s;
+    }
+    .whatsapp-groups .group h3,
+    .whatsapp-link {
+    color: #f3ebeb; /* This sets the color to white */
+}
+
+    .whatsapp-link:hover,
+    .group:hover {
+        transform: translateY(-5px);
+    }
+
+    .ads {
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+    }
+
+    footer {
+        position: relative;
+        color: #fff;
+        text-align: center;
+        padding: 40px 0;
+        box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1; /* Place it behind the content */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-size: cover;
+        background-position: center;
+        filter: blur(5px);
+    }
+    
+    footer p {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    footer::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+        background-size: 40px 40px;
+        opacity: 0.2;
+        z-index: -2; /* Place it behind the blurred background */
+    }
+    
+    
+    
+
+    .saikat-description {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .saikat-description p {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    
+    
+    .linkedin-link {
+        color: #0077b5;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s;
+    }
+    
+    .linkedin-link i {
+        margin-right: 10px;
+    }
+    
+    .linkedin-link:hover {
+        color: #005582;
+    }
+
+    @keyframes jiggle {
+        0% { transform: rotate(-2deg); }
+        25% { transform: rotate(2deg); }
+        50% { transform: rotate(-2deg); }
+        75% { transform: rotate(2deg); }
+        100% { transform: rotate(-2deg); }
+    }
+    
+    .jiggle {
+        display: inline-block;
+        animation: jiggle 0.5s infinite;
+    }
+    
+    .robot-popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2000;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .robot-message {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        max-width: 350px;
+        text-align: center;
+        border: 1px solid #0078D7;
+    }
+    
+    .robot-message p {
+        margin: 20px 0;
+        font-size: 1.1em;
+        color: #333;
+    }
+    
+    .robot-message i.fas.fa-robot {
+        font-size: 4em; 
+        margin-bottom: 20px;
+        color: #0078D7;
+        display: block;
+    }
+    
+    .robot-message button {
+        padding: 10px 20px;
+        background-color: #0078D7;
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .robot-message button:hover {
+        background-color: #005ca5;
+        transform: scale(1.05);
+    }
+
+    .robot-icon {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .eye {
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        pointer-events: none; /* This ensures the eyes don't interfere with mouse events */
+    }
+    
+    .left-eye {
+        left: 26%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .right-eye {
+        right: 26%;
+        transform: translate(50%, -50%);
+    }
+    
+    .robot-speech-bubble {
+        position: absolute;
+        top: 170px; /* Adjust as needed */
+        left: 53%;
+        transform: translateX(-50%);
+        background-color: #d4e9d9;
+        padding: 10px 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        font-size: 0.9em;
+        color: #333;
+        white-space: nowrap;
+        z-index: 9999;
+    }
+    
+    .robot-speech-bubble::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #d4e9d9;
+    }
+
+    #robotFunnyMessage {
+        margin-top: 10px;
+        font-style: italic;
+        color: #777;
+    }
+    
+    
+
+    /* Responsive Breakpoints */
+
+   @media (max-width: 767px) {
+    header {
+        padding: 40px 0;
+    }
+    
+    .whatsapp-groups .group {
+        flex-direction: column;
+        align-items: center; /* This will center the items horizontally */
+        justify-content: center; /* This will center the items vertically */
+    }
+
+    .whatsapp-link {
+        margin-top: 10px;
+    }
+}
+
+
+    @media (max-width: 479px) {
+        
+        header {
+            padding: 30px 0;
+        }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+        }
+
+        .whatsapp-link {
+            padding: 8px 16px;
+            font-size: 0.9em;
+        }
+    }
+
+    /* Adjust the robot popup for medium-sized devices */
+@media (max-width: 767px) {
+    .robot-message {
+        width: 80%; /* Use a percentage width to make it responsive */
+        font-size: 0.9em; /* Slightly reduce the font size */
+    }
+}
+
+/* Adjust the robot popup for smaller devices */
+@media (max-width: 479px) {
+    .robot-message {
+        width: 51%; /* Use a larger percentage width for smaller screens */
+        font-size: 0.8em; /* Further reduce the font size */
+    }
+    
+    .robot-speech-bubble {
+        top: 150px; /* Adjust the position of the speech bubble */
+        font-size: 0.8em; /* Reduce the font size of the speech bubble */
+    }
+    
+    .robot-message i.fas.fa-robot {
+        font-size: 3em; /* Reduce the robot icon size */
+    }
+}
+
+/* ... existing styles ... */
+
+/* Adjust the positioning of .community-description for mobile */
+@media (max-width: 767px) {
+    header {
+        padding-bottom: 100px;
+    }
+
+    .community-description {
+        position: static;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 20px 10%;
+        border-radius: 8px;
+        color: #fff;
+    }
+
+    main {
+        margin-top: 40px;
+    }
+}
+
