@@ -79,7 +79,7 @@
         justify-content: space-between;
         background-size: cover;
         background-position: center;
-        padding: 39px;
+        padding: 32px;
         border-radius: 10px;
         transition: transform .3s;
     }
@@ -103,6 +103,22 @@
     .group.Finance {
         background-image: url(https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     }
+    .group.interior {
+        background-image: url(https://logoforall.s3.ap-south-1.amazonaws.com/living-room-2732939_1280.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+
+    .group.physics {
+        background-image: url(https://logoforall.s3.ap-south-1.amazonaws.com/pexels-jeshootscom-714699.jpg?auto=compress&cs=tinysrgb&dpr=2&h=50&w=940);
+    }
+
+    .group.physics {
+        background-image: url(https://logoforall.s3.ap-south-1.amazonaws.com/pexels-jeshootscom-714699.jpg?auto=compress&cs=tinysrgb&dpr=2&h=50&w=940);
+    }
+
+    .group.programming {
+        background-image: url(https://logoforall.s3.ap-south-1.amazonaws.com/pexels-neo-2653362.jpg?auto=compress&cs=tinysrgb&dpr=2&h=50&w=940);
+    }
+   
     
     
 
